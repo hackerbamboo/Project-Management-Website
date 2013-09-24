@@ -1,0 +1,139 @@
+
+
+	    body,input, .hint{
+           font-family: 'Open Sans', 'lucida grande', 'Segoe UI', arial, verdana, 'lucida sans unicode', tahoma, sans-serif;
+        }
+		
+		#homepage{
+			text-align: center;
+			margin-top: 70px;
+		}
+		.Button{
+            color: #fff;
+			cursor: pointer;
+            border: #fff;
+            width: 208px;
+            height:33px;
+            background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(0, 255, 255)), to(rgb(0, 191, 255)));
+		}
+        .Button:hover{
+            background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(0, 255, 255)), to(rgb(65, 105, 225)));
+        }
+
+		.login {
+			box-shadow: rgba(68, 68, 68, 0.4) 0px 0px 25px 0px, rgb(0, 0, 0) 0px 0px 0px 0px;
+		}
+	
+		#login1,#login2{
+			background-color: #fff;
+		}
+		.login form,h2{
+			text-align: center;
+		}
+		
+        .closeimage {
+            width: 16px;
+            height: 16px;
+            top:12px;
+            right:12px;
+            position:absolute;
+            cursor: pointer;
+        }
+
+        input{
+        
+            height: 34px;
+            width: 208px;
+            border-radius: 6px;
+        }
+
+        .hint{
+            color: red;
+            font-size: 10px;
+            
+        }
+
+        #homepage a{
+            text-decoration: none;
+            color: #00BFFF;
+			cursor: pointer;
+        }
+        #homepage a:hover{
+            text-decoration: underline;
+        }
+
+		.background{
+			background-image: url("image/background.jpg");
+		}
+		
+		#header img{
+			margin-top:-20px;
+			float:left;
+		}
+		#header input{
+			float:right;
+			display:inline-block;
+		}
+	
+
+		fieldset{
+			width: 300px;
+			border-width:6px;
+			border-color: black;
+		}
+		
+		#userInfo{
+			float:left;
+			margin-left:20px;
+			margin-top:200px;
+			position:fixed;
+		}
+		
+		.editIcon{
+			top:6px;
+			right:6px;
+			width:30px;
+			height:30px;
+            cursor: pointer;
+		}
+		
+		#projects{
+			margin-top:80px;
+			margin-right: 100px;
+			float: right;
+			font-size:14px;
+		}
+		
+		.inButton, .ma_button, .ca_button{
+			color: #fff;
+			cursor: pointer;
+            
+			border: 3px solid white;
+            width: 158px;
+            height:30px;
+            background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(0, 255, 255)), to(rgb(0, 191, 255)));
+		}
+		.inButton, .ma_button, .ca_button:hover{
+            background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(0, 255, 255)), to(rgb(65, 105, 225)));
+        }
+		.accordion{
+			position: absolute;
+			width: 800px;
+			margin-left: 380px;
+			margin-top: 400px;
+			font-size: 14px;
+		}
+		.me_button, .ce_button, .md_button, .cd_button{
+			color: #fff;
+			cursor: pointer;
+            
+			border: 1px solid white;
+            width: 70px;
+            height:30px;
+            background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(0, 255, 255)), to(rgb(0, 191, 255)));
+		}
+		.me_button, .md_button, .cd_button, .ce_button:hover{
+			background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(0, 255, 255)), to(rgb(65, 105, 225)));
+		}
+		
+		

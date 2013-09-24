@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PM Afternoon</title>	
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<link rel="stylesheet" type="text/css" href="../../class_files/sprintlab/jquery-ui-1.10.3.custom/css/custom-theme/jquery-ui-1.10.3.custom.css" />	
+		<link rel="stylesheet" href="../../class_files/sprintlab/newafternoon.css" />
+		<script type="text/javascript" src="../../class_files/sprintlab/jquery-ui-1.10.3.custom/js/jquery-1.9.1.js"></script>
+		<script type="text/javascript" src="../../class_files/sprintlab/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.js"></script>
+		<script type="text/javascript" src="../../class_files/sprintlab/test.js"/>
+		<script type="text/javascript">
+		
+			
+		</script>
+		
+		
+	</head>
+
+	<body>
+		<div id="homepage" style="display:none">
+            <img src="image/pmtitle.png">	<br><br>
+            <input type="button" class="Button" value="Sign in" id="signinButton"><br><br>
+            <p>Or <a id="signupButton">Sign up</a></p>
+		</div>
+		
+		<div id="header" >
+			<img src="image/headtitle.png">
+			<input type="button" name="logout" value="Logout" class="Button"  id="logout_submit" style="float:right">
+		</div>
+		<div id="maincontent" >
+		
+			<div id="userInfo" >
+				
+				<fieldset>
+					<legend>User Profile</legend>
+					<img id="edit_user_icon" src="image/editIcon.png" class="editIcon">
+					
+				</fieldset>
+			</div>
+			
+			
+			<div id="projects" style="display:none">
+				
+			</div>
+			
+			<div id="totalaccordion" style="display:none">
+				
+			</div>
+		
+		</div>
+		
+		
+		
+		
+		<div id="login1" class="login" style="display:none">
+            <img id="in_close" src="image/x.png" class="closeimage">
+            <h2>Sign in</h2>
+			<form>
+                <p class="hint"></p>
+                <input type="email" name="email" id="email" placeholder="Email" value="
+jsheffield@xyzcorp.com"><br><br>
+				<input type="password" name="password" id="pswd" placeholder="password" ><br><br>
+                <input type="button" name="login_submit" value="Sign in" class="Button"  id="login_submit">
+				
+			</form>
+		</div>
+		
+		 <div id="login2" class="login" style="display:none">
+			<img id="up_close" src="image/x.png" class="closeimage">
+			<h2>Sign up</h2>
+			<form>
+				<p class="hint"></p>
+				<input type="text" name="firstname" id="Upfirstname" placeholder="First Name" ><br><br>
+				<input type="text" name="lastname" id="Uplastname" placeholder="Last Name"><br><br>
+				<input type="email" name="email" id="Upemail" placeholder="Email" ><br><br>
+				<input type="password" name="password" id="Uppswd" placeholder="Password"><br><br>
+				<input type="button" name="login_submit" value="Sign up" class="Button"  id="logup_submit">
+			</form>
+		</div>
+		
+		<div id="add_milestone_dialog" style="display:none">
+			<form>
+				<p class="hint"></p>
+				<input type="text" name="milestone_text" id="add_milestone_text" placeholder="milestone text" ><br><br>
+				<input type="text" name="milestone_date" id="add_milestone_date" placeholder="milestone date"><br><br>
+				<input type="button" name="add_milestone_submit" value="Save" class="Button"  id="add_milestone_submit">
+			</form>
+		</div>
+		
+		<div id="add_comment_dialog" style="display:none">
+			<form>
+				<p class="hint"></p>
+				<input type="text" name="comment_text" id="add_comment_text" placeholder="comment text" ><br><br>
+				<input type="text" name="comment_date" id="add_comment_date" placeholder="comment date"><br><br>
+				<input type="button" name="add_comment_submit" value="Save" class="Button"  id="add_comment_submit">
+			</form>
+		</div>
+		
+		<div id="edit_user_dialog" style="display:none" style="border:2px black">
+		</div>
+		<div id="edit_project_dialog" style="display:none" style="border:2px black">
+		</div>
+		<div id="edit_milestone_dialog" style="display:none" style="border:2px black">
+		</div>
+		<div id="edit_comment_dialog" style="display:none" style="border:2px black">
+		</div>
+		<div id="delete_milestone_window" style="display:none" style="border:2px black">
+			<p><span class="ui-icon ui-icon-alert" style="float: left; margin: 0 7px 20px 0;"></span>This milestone will be permanently deleted and cannot be recovered. Are you sure?</p>
+		</div>
+		<div id="delete_comment_window" style="display:none" style="border:2px black">
+			<p><span class="ui-icon ui-icon-alert" style="float: left; margin: 0 7px 20px 0;"></span>These comment will be permanently deleted and cannot be recovered. Are you sure?</p>
+		</div>
+	</body>
+</html>
